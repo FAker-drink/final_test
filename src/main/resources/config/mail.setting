@@ -1,0 +1,25 @@
+
+host = smtp.qq.com
+
+port = 465
+
+from = 2951047549@qq.com
+
+user = 2951047549
+
+pass = gfopiaumzlordcda
+
+starttlsEnable = true
+
+sslEnable = true
+
+socketFactoryClass = javax.net.ssl.SSLSocketFactory
+
+socketFactoryFallback = true
+
+socketFactoryPort = 465
+
+timeout = 0
+
+connectionTimeout = 0
+

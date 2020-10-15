@@ -1,0 +1,156 @@
+form.product-form {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 50px;
+}
+
+.form-item {
+    /* width: 250px; */
+    height: 50px;
+}
+
+input {
+    width: 200px;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px;
+		text-indent: 5px
+}
+
+.form-item label {
+    width: 80px;
+    text-align: right;
+    display: inline-block;
+}
+
+.btn-group {
+		margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.btn-group button {
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 8px 50px;
+    font-size: 14px;
+		cursor: pointer;
+}
+button#createBtn {
+	background-color: #f33;
+	color: #fff;
+	border-color: #f33;
+	margin-right: 100px;
+}
+div#product {
+    min-height: 500px;
+}
+.product-content {
+    border: 1px solid #ccc;
+}
+#product-table {
+		width: 100%;
+		text-align: center;
+		line-height: 50px;
+}
+#product-table thead {
+	background-color: #00B3E0;
+}
+#product-table tbody tr:nth-child(even){
+	background-color: #ccc;
+}
+.page {
+	line-height: 50px;
+	text-align: right;
+	font-size: 14px;
+}
+
+.page input {
+	width: 30px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	text-align: center;
+	outline: none;
+}
+
+.page>* {
+	margin: 0 5px;
+	color: #929292;
+}
+
+.prev {
+	margin-right: 0px;
+}
+
+.next {
+	margin-left: 0px;
+}
+
+.prev,
+.next {
+	height: 20px;
+	background-size: 10px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.page .step {
+	display: inline-block;
+	width: 150px;
+	height: 10px;
+	background-color: #ccc;
+	vertical-align: middle;
+	border-radius: 10px;
+	position: relative;
+}
+
+.page .step .step-con {
+	height: 100%;
+	background-color: #1296DB;
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+}
+
+.step-con:after {
+	content: "";
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	background: #1296DB;
+	border-radius: 50%;
+	top: -2px;
+	right: 0;
+}
+.step-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	position: absolute;
+}
+.step-wrapper .step-item {
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+}
+.operator .del {
+	background: #f33;
+	border: 1px solid #f33;
+	color: #fff;
+	margin-right: 50px;
+}
+.operator button {
+	/* width: 80px; */
+	padding: 5px 15px;
+	outline: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
